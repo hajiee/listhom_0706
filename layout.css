@@ -1,11 +1,12 @@
  @import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@800&display=swap');
 
-*{
+ header *{
+  margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 #page{
-  width: 900px;
+  width: 1000px;
   margin: 0 auto;
 }
 header,nav,footer{
@@ -20,7 +21,7 @@ header,nav,footer{
 }
 header{
   font-family: 'Nanum Gothic', sans-serif;
-  letter-spacing: 0.5em;
+  letter-spacing: 1.2em;
 }
 main{
   display: flex;
@@ -28,11 +29,11 @@ main{
 }
 main>aside{
   width: 100px;
-  height: 300px;
+  height: 200px;
   background-color: lightseagreen;
 }
 main>section{
-  width: 700px;
+  width: 800px;
   min-height: 600px;
   background-color: white;
 }
