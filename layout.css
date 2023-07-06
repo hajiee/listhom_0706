@@ -1,6 +1,7 @@
  @import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@800&display=swap');
 
- header *{
+/* 3단 레이아웃 css */
+header *{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -38,11 +39,13 @@ main>section{
   background-color: white;
 }
 
+/*pagination flex*/
 #pagination{
   display: flex;
   justify-content: center;
 }
 
+/*read css*/
 #contact-list{
   list-style: none;
   position: relative;
