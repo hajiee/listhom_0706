@@ -29,7 +29,7 @@ function printContacts(contacts) {
     const html = `
       <tr>
         <td>${c.no}</td>
-        <td><a href='read.html?no=${c.no}'>${c.name}</a></td>
+        <td><a href='read(0706).html?no=${c.no}'>${c.name}</a></td>
         <td>${c.tel}</td>
         <td>${c.address}</td>
       </tr>
