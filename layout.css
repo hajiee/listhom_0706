@@ -1,14 +1,12 @@
  @import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@800&display=swap');
 
 *{
-  margin: 0 auto;
   padding: 0;
   box-sizing: border-box;
 }
 #page{
-  margin: 0 auto;
-  padding: 0;
   width: 900px;
+  margin: 0 auto;
 }
 header,nav,footer{
   height: 50px;
@@ -37,4 +35,9 @@ main>section{
   width: 700px;
   min-height: 600px;
   background-color: white;
+}
+
+#pagination{
+  display: flex;
+  justify-content: center;
 }
